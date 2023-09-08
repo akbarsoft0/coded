@@ -1,0 +1,47 @@
+.login {
+    align-items: center;
+    text-align: center;
+    position: relative;
+    background: url(../../../assets/img/bg.jpg) no-repeat center center;
+    background-size: cover;
+    height: 100%;
+}
+
+.login::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background-color: #b6ea4642;
+}
+
+form {
+    width: 400px;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 3rem;
+    border-radius: 10px;
+    z-index: 4;
+    text-transform: capitalize;
+}
+
+.login input:not([type='checkbox']) {
+    display: block;
+    padding: 1rem;
+    margin: 2rem 0;
+    width: 100%;
+    text-transform: capitalize;
+
+}
+
+.passbox {
+    position: relative;
+}
+
+#passEye {
+    position: absolute;
+    top: 40%;
+    right: 10%;
+}
+
+label {
+    margin: 10px 5px;
+}

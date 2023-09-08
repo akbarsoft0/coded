@@ -1,0 +1,44 @@
+#admin {
+    display: block;
+    background: #cccdca;
+    text-align: center;
+}
+
+.add-card form {
+    align-items: start;
+    width: 100%;
+    padding: 2rem 1rem;
+}
+
+.add-card label {
+    background-color: #f6f6f6;
+    border: 2px dashed #000;
+    color: #000;
+    margin: 0;
+    display: block;
+}
+
+.add-card textarea {
+    height: 100%;
+}
+
+.add-card .mybtn {
+    float: right;
+}
+
+.add-card input,
+textarea,
+.add-card label {
+    display: block;
+    width: 100%;
+    padding: 1rem;
+    margin-bottom: 5px;
+    border-radius: 8px;
+    text-transform: capitalize;
+    /* text-align: center; */
+}
+
+.add-card small {
+    float: right;
+    color: lightblue;
+}

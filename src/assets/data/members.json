@@ -1,0 +1,72 @@
+[
+    {
+        "id": "Super_admin",
+        "list": [
+            {
+                "name": "akbar",
+                "email": "ma63768481@gmail.com",
+                "password": "1"
+            }
+        ]
+    },
+    {
+        "id": "admin",
+        "list": [
+            {
+                "name": "a",
+                "email": "john.doe@example.com",
+                "password": "0"
+            },
+            {
+                "name": "Jane Smith",
+                "email": "jane.smith@example.com",
+                "password": "Secure123"
+            },
+            {
+                "name": "Michael Johnson",
+                "email": "michael.johnson@example.com",
+                "password": "M!k3yP@ss"
+            },
+            {
+                "name": "Emily Davis",
+                "email": "emily.davis@example.com",
+                "password": "EmsP@ss42"
+            },
+            {
+                "name": "David Brown",
+                "email": "david.brown@example.com",
+                "password": "D@ve1234"
+            }
+        ]
+    },
+    {
+        "id": "lerner",
+        "list": [
+            {
+                "name": "c",
+                "email": "sarah.wilson@example.com",
+                "password": "3"
+            },
+            {
+                "name": "James Lee",
+                "email": "james.lee@example.com",
+                "password": "L33Jam$"
+            },
+            {
+                "name": "Jennifer Miller",
+                "email": "jennifer.miller@example.com",
+                "password": "Jenn1P@ss"
+            },
+            {
+                "name": "Robert Taylor",
+                "email": "robert.taylor@example.com",
+                "password": "R0bP@ssw0rd"
+            },
+            {
+                "name": "Donald Smith",
+                "email": "donald.smith@example.com",
+                "password": "D0n@ldP@ss"
+            }
+        ]
+    }
+]

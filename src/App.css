@@ -1,38 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@300;500;700&family=Work+Sans:wght@300;400;500;600&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  word-wrap: break-word;
+}
+
 .App {
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
+  font-weight: 400;
+  font-family: roboto;
+  color: #fff;
+  position: relative;
   min-height: 100vh;
+  font-family: 'Mukta', sans-serif;
+  font-family: 'Work Sans', sans-serif;
+  text-transform: capitalize;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+section {
+  min-height: 90vh;
+  padding: 2rem;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  text-align: left;
+  background: #cccdca;
+
+  /* background: url(./assets/img/bg.jpg) no-repeat center center;
+  background-size: cover;
+  height: 100%; */
 }
 
-.App-link {
-  color: #61dafb;
+.mybtn {
+  z-index: 20;
+  background-color: #729d12;
+  color: #fff;
+  text-transform: capitalize;
+  padding: 0.5rem 2rem;
+  border-radius: 6px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+.mybtn:hover {
+  color: #fff;
+  background-color: #b7ea46;
+}
+
+.mybtn:active {
+  transform: scale(0.9);
+}
+
+@media only screen and (max-width:600px) {
+  section {
+    padding: 1rem;
   }
 }

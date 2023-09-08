@@ -1,0 +1,142 @@
+[
+    {
+        "id": 1,
+        "title": "Introduction to Web Development with HTML and CSS",
+        "description": "Learn the basics of web development and create your first webpage.",
+        "author": {
+            "name": "John Doe",
+            "email": "john.doe@example.com",
+            "website": "https://www.johndoe.com"
+        },
+        "video_link": "https://www.youtube.com/watch?v=ABC123",
+        "thumbnail": "https://cdn.pixabay.com/photo/2020/05/07/04/01/digitization-5140071_640.jpg",
+        "headline": "Get started with web development today!",
+        "date_published": "2023-09-02"
+    },
+    {
+        "id": 2,
+        "title": "JavaScript Fundamentals",
+        "description": "Learn the basics of JavaScript programming and how to add interactivity to web pages.",
+        "author": {
+            "name": "Alice Smith",
+            "email": "alice.smith@example.com",
+            "website": "https://www.alicesmith.com"
+        },
+        "video_link": "https://www.youtube.com/watch?v=XYZ789",
+        "thumbnail": "https://media.istockphoto.com/id/1438042867/photo/3d-illustration-of-ai-human-on-technology-background.webp?b=1&s=612x612&w=0&k=20&c=wPTV-mYqBkw_FL0s3tLlrfi2I615ot9eXb4Tr1yoHXo=",
+        "headline": "Master the art of JavaScript coding!",
+        "date_published": "2023-09-15"
+    },
+    {
+        "id": 3,
+        "title": "Python for Beginners",
+        "description": "Start your programming journey with Python, a beginner-friendly and versatile language.",
+        "author": {
+            "name": "Eva Johnson",
+            "email": "eva.johnson@example.com",
+            "website": "https://www.evajohnson.com"
+        },
+        "video_link": "https://www.youtube.com/watch?v=DEF456",
+        "thumbnail": "https://media.istockphoto.com/id/1450969748/photo/developer-working-with-new-program.webp?b=1&s=612x612&w=0&k=20&c=f1VAreml69K5fMxbwN8IoYed7x0bnF_zCJCnmHtPf84=",
+        "headline": "Become a Python programmer in no time!",
+        "date_published": "2023-10-05"
+    },
+    {
+        "id": 4,
+        "title": "Data Science with R",
+        "description": "Learn the fundamentals of data analysis and visualization using the R programming language.",
+        "author": {
+            "name": "David Brown",
+            "email": "david.brown@example.com",
+            "website": "https://www.davidbrown.com"
+        },
+        "video_link": "https://www.youtube.com/watch?v=GHI789",
+        "thumbnail": "https://media.istockphoto.com/id/1169929038/photo/developing-programmer-team-development-website-design-and-coding-technologies-working-in.jpg?s=612x612&w=0&k=20&c=iYn6eu084MXrhdW8JEyJ1vcCHIfyMhvnKyk6AkAgmME=",
+        "headline": "Unlock the power of data with R!",
+        "date_published": "2023-11-20"
+    },
+    {
+        "id": 5,
+        "title": "Java Programming Basics",
+        "description": "Learn the fundamentals of Java programming and object-oriented programming concepts.",
+        "author": {
+            "name": "Sarah Green",
+            "email": "sarah.green@example.com",
+            "website": "https://www.sarahgreen.com"
+        },
+        "video_link": "https://www.youtube.com/watch?v=JKL123",
+        "thumbnail": "https://media.istockphoto.com/id/1288009387/photo/software-development-system-engineer-programming-digital-transformation.jpg?s=612x612&w=0&k=20&c=q04VzHacoKuwksIBJf2gFZCd9lVlARrX6iY6gFTKm-U=",
+        "headline": "Start your journey with Java!",
+        "date_published": "2023-12-10"
+    },
+    {
+        "id": 6,
+        "title": "C# Programming Essentials",
+        "description": "Master C# programming and build Windows applications with this comprehensive course.",
+        "author": {
+            "name": "Michael Johnson",
+            "email": "michael.johnson@example.com",
+            "website": "https://www.michaeljohnson.com"
+        },
+        "video_link": "https://www.youtube.com/watch?v=MNO789",
+        "thumbnail": "https://media.istockphoto.com/id/869356832/photo/big-data-futuristic-visualization-abstract-illustration.jpg?s=612x612&w=0&k=20&c=MO9IIns53PYnSRR7_vkE7xXWqvEQL84WRL5UuiapihY=",
+        "headline": "Become a C# pro!",
+        "date_published": "2024-01-15"
+    },
+    {
+        "id": 7,
+        "title": "Android App Development with Kotlin",
+        "description": "Learn to build Android apps using Kotlin, the modern and expressive programming language.",
+        "author": {
+            "name": "Emily Turner",
+            "email": "emily.turner@example.com",
+            "website": "https://www.emilyturner.com"
+        },
+        "video_link": "https://www.youtube.com/watch?v=XYZ789",
+        "thumbnail": "https://media.istockphoto.com/id/1356364268/photo/close-up-focus-on-persons-hands-typing-on-the-desktop-computer-keyboard-screens-show-coding.jpg?s=612x612&w=0&k=20&c=4R_9mWq9KzgpC_pVBMMM0FNzw1L-NyFLa7tDqFInMGs=",
+        "headline": "Craft amazing Android apps!",
+        "date_published": "2024-02-20"
+    },
+    {
+        "id": 8,
+        "title": "Ruby on Rails Web Development",
+        "description": "Build web applications with Ruby on Rails, a popular web development framework.",
+        "author": {
+            "name": "Daniel Clark",
+            "email": "daniel.clark@example.com",
+            "website": "https://www.danielclark.com"
+        },
+        "video_link": "https://www.youtube.com/watch?v=ABC456",
+        "thumbnail": "https://media.istockphoto.com/id/1147195672/photo/focused-developer-coding-on-computer-monitors-working-late-in-office.jpg?s=612x612&w=0&k=20&c=R6oPQ_vkXAxCzpi4UFsN28pdU0C0LJL8JLAX-HwO90Q=",
+        "headline": "Create dynamic web apps with Ruby on Rails!",
+        "date_published": "2024-03-10"
+    },
+    {
+        "id": 9,
+        "title": "Swift for iOS App Development",
+        "description": "Learn Swift and develop iOS applications for iPhone and iPad.",
+        "author": {
+            "name": "Olivia Parker",
+            "email": "olivia.parker@example.com",
+            "website": "https://www.oliviaparker.com"
+        },
+        "video_link": "https://www.youtube.com/watch?v=DEF789",
+        "thumbnail": "https://media.istockphoto.com/id/1075599562/photo/programmer-working-with-program-code.jpg?s=612x612&w=0&k=20&c=n3Vw5SMbMCWW1YGG6lnTfrwndNQ8B_R4Vw-BN7LkqpA=",
+        "headline": "Create your own iOS apps!",
+        "date_published": "2024-04-25"
+    },
+    {
+        "id": 10,
+        "title": "Machine Learning with Python",
+        "description": "Dive into machine learning and AI using Python libraries and tools.",
+        "author": {
+            "name": "Mark Wilson",
+            "email": "mark.wilson@example.com",
+            "website": "https://www.markwilson.com"
+        },
+        "video_link": "https://www.youtube.com/watch?v=GHI456",
+        "thumbnail": "https://media.istockphoto.com/id/1081869188/photo/the-life-of-a-programmer.jpg?s=612x612&w=0&k=20&c=0toxBDXsNiINGlMTn-kUx1A8go4KQ7du6Z0Ew1jT0co=",
+        "headline": "Unleash the power of machine learning!",
+        "date_published": "2024-05-15"
+    }
+]

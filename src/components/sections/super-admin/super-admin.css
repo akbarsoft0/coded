@@ -1,0 +1,11 @@
+.SAdmin {
+    justify-content: flex-start;
+    color: black;
+}
+
+#th-head {
+    background-color: aliceblue;
+    color: #000;
+    position: relative;
+    border: none;
+}
