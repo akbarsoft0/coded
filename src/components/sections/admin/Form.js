@@ -113,7 +113,7 @@ const Form = ({ onSubmit, user }) => {
                     {item.image && (
                         <img
                             src={item.image}
-                            alt={item.image}
+                            alt='did not get'
                             className='img-fluid uploaded-image'
                         />
                     )}
