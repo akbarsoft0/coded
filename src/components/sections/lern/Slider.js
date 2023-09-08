@@ -20,7 +20,7 @@ const Slider = ({ slides }) => {
                     <SwiperSlide key={item.thumbnail}>
                         <div className='cours-card'>
                             <h2 className='title'>{item.title}</h2>
-                            <img src={item.thumbnail} alt={item.thumbnail} className='img-fluid image' />
+                            <img src={item.thumbnail} {item.thumbnail} className='img-fluid image' />
                             <div className='card-text'>
 
                                 <a href={item.video_link} className='headline'>{item.headline}</a>
