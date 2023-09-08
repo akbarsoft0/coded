@@ -1,10 +1,6 @@
-import { Button } from '@mui/material'
-import { useNavigate } from 'react-router-dom';
-
 import React from 'react'
 import '../css/home.css'
 import { NavLink } from 'react-router-dom';
-import Login from './Login'
 
 const Home = () => {
     return (
