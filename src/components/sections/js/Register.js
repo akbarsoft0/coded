@@ -23,7 +23,7 @@ export default function Register() {
     function Show(event) {
         event.preventDefault();
         if (user && email && pass && tnc) {
-            login('/client')
+            login('/lerner')
         } else {
             // alert('please input user & password & accsept t&c!')
             setOpen(true);
