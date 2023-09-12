@@ -4,6 +4,7 @@ import { useNavigate } from 'react-router-dom';
 import { Button } from '@mui/material'
 import { NavLink } from 'react-router-dom';
 import MuiSnack from '../../mui/MuiSnack';
+import RemoveRedEyeIcon from '@mui/icons-material/RemoveRedEye';
 
 
 
@@ -37,7 +38,7 @@ export default function Register() {
             setPassType('text')
         }
         else {
-            // setPassType('password')
+            setPassType('password')
         }
     }
 
@@ -54,7 +55,8 @@ export default function Register() {
 
                 <div className="passbox">
                     <input type={passType} name="pass" id="pass" placeholder='input password' value={pass} onChange={(e) => setPass(e.target.value)} />
-                    <input type="checkbox" name="passEye" id="passEye" onChange={showPass} />
+                    <RemoveRedEyeIcon onClick={showPass} id="passEye" />
+
                 </div>
                 <input type="checkbox" name="check" id="check" checked={tnc} onChange={() => setTnc(true)} />
                 <label htmlFor="check">term & conditons</label>

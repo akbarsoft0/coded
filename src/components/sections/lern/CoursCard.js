@@ -13,7 +13,7 @@ const CoursCard = () => {
                 return (
                     <div key={id} className='col-lg-6 col-xl-4'>
 
-                        <div className='cours-card'>
+                        <div className='cours-card item'>
                             <h2 className='title'>{item.title}</h2>
                             <img src={item.thumbnail} alt='did not get' className='img-fluid image' />
                             <div className='card-text'>

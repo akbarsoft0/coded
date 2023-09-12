@@ -38,7 +38,8 @@ form {
 
 #passEye {
     position: absolute;
-    top: 40%;
+    color: #000;
+    top: 30%;
     right: 10%;
 }
 

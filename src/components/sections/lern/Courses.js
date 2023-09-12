@@ -1,7 +1,6 @@
 import React from 'react'
 import CardHead from './CardHead'
-import Slider from './Slider'
-import slides from '../../../assets/data/coursesData.json'
+import CoursCard from './CoursCard'
 
 const Courses = () => {
 
@@ -10,7 +9,10 @@ const Courses = () => {
             <CardHead />
             <section className='courses'>
                 <div className="container">
-                    <Slider slides={slides} />
+                    <div className="row">
+                        <h2>browse courses you like.</h2>
+                        <CoursCard />
+                    </div>
                 </div>
             </section>
         </>

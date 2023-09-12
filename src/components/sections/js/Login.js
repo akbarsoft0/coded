@@ -5,9 +5,12 @@ import { useNavigate } from 'react-router-dom';
 import { Button } from '@mui/material'
 import { NavLink } from 'react-router-dom';
 import MuiSnack from '../../mui/MuiSnack';
+import RemoveRedEyeIcon from '@mui/icons-material/RemoveRedEye';
 
 
 export default function Login() {
+
+
     let login = useNavigate()
     const [open, setOpen] = useState(false)
 
@@ -77,7 +80,7 @@ export default function Login() {
                 <input type="text" value={user} placeholder='input user name' onChange={(e) => setUser(e.target.value)} />
                 <div className="passbox">
                     <input type={passType} name="pass" id="pass" placeholder='input password' value={pass} onChange={(e) => setPass(e.target.value)} />
-                    <input type="checkbox" name="passEye" id="passEye" onChange={showPass} />
+                    <RemoveRedEyeIcon onClick={showPass} id="passEye" />
                 </div>
 
                 <NavLink to={'/'}>

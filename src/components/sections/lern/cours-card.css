@@ -16,6 +16,11 @@
   text-align: left;
 }
 
+.cours-card:hover {
+  transform: translateY(-20px);
+  transition: linear 0.3s;
+}
+
 a {
   color: #729d12;
   text-decoration: none;
@@ -92,7 +97,7 @@ a:hover {
 .card-head {
   width: 100%;
   min-height: 60vh;
-  background: #b7ea46 url(../../../assets/img/bg3.jpg) center fixed;
+  background: gray url(../../../assets/img/bg3.jpg) center fixed;
   background-size: cover;
 
   display: flex;
