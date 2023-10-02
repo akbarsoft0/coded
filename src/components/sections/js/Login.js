@@ -74,39 +74,76 @@ export default function Login() {
                 severity={"error"}
                 text={"Please enter a valid login name and password."}
             />
+            <div className="container">
+                <div className="row justify-bitween">
+                    <div className="col-lg-8">
+                        <form onSubmit={show}>
+                            <h3>login page</h3>
+                            <input type="text" value={user} placeholder='input user name' onChange={(e) => setUser(e.target.value)} />
+                            <div className="passbox">
+                                <input type={passType} name="pass" id="pass" placeholder='input password' value={pass} onChange={(e) => setPass(e.target.value)} />
+                                <RemoveRedEyeIcon onClick={showPass} id="passEye" />
+                            </div>
 
-            <form onSubmit={show}>
-                <h3>login page</h3>
-                <input type="text" value={user} placeholder='input user name' onChange={(e) => setUser(e.target.value)} />
-                <div className="passbox">
-                    <input type={passType} name="pass" id="pass" placeholder='input password' value={pass} onChange={(e) => setPass(e.target.value)} />
-                    <RemoveRedEyeIcon onClick={showPass} id="passEye" />
+                            <NavLink to={'/'}>
+                                <Button
+                                    variant="contained"
+                                    className='m-2'
+                                    color="error"
+                                    size="large"
+                                >
+                                    close
+                                </Button>
+                            </NavLink>
+
+                            <Button type='submit'
+                                variant="contained"
+                                className='my-2'
+                                color="secondary"
+                                size="large"
+                            >
+                                login
+                            </Button>
+
+                            <br />
+                            <NavLink to={'/register'} className='text-danger'>register</NavLink>
+
+                        </form>
+                    </div>
+                    <div className="col-lg-4">
+                        <div className='side'>
+                            <h4>pages</h4>
+                            <table>
+
+                                <tr>
+                                    <th>pages</th>
+                                    <th>username</th>
+                                    <th>password</th>
+                                </tr>
+                                <tr>
+                                    <th>Super admin</th>
+                                    <td>akbar</td>
+                                    <td>1</td>
+                                </tr>
+                                <tr>
+                                    <th>Admin</th>
+                                    <td>a</td>
+                                    <td>0</td>
+                                </tr>
+                                <tr>
+                                    <th>Lerner</th>
+                                    <td>c</td>
+                                    <td>3</td>
+                                </tr>
+
+                            </table>
+                        </div>
+                    </div>
                 </div>
+            </div>
 
-                <NavLink to={'/'}>
-                    <Button
-                        variant="contained"
-                        className='m-2'
-                        color="error"
-                        size="large"
-                    >
-                        close
-                    </Button>
-                </NavLink>
 
-                <Button type='submit'
-                    variant="contained"
-                    className='my-2'
-                    color="secondary"
-                    size="large"
-                >
-                    login
-                </Button>
 
-                <br />
-                <NavLink to={'/register'} className='text-danger'>register</NavLink>
-
-            </form>
         </section >
     )
 }

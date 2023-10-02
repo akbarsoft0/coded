@@ -46,7 +46,7 @@ export default function Register() {
         <section className='login' id='register'>
             <MuiSnack open={open} setOpen={setOpen} text={"Please Register valid name password and Email"} severity={'error'} />
 
-            <form onSubmit={Show}>
+            <form onSubmit={Show} className='reg'>
                 <h3>register page</h3>
 
                 <input type="text" value={user} placeholder='input user name' onChange={(e) => setUser(e.target.value)} />

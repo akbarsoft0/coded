@@ -2,6 +2,7 @@
 import React from 'react';
 
 const FormEntry = ({ entry, onRemove }) => {
+
     return (
         <>
             <div className="col-lg-4">

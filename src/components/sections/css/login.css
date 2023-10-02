@@ -1,26 +1,21 @@
 .login {
-    align-items: center;
-    text-align: center;
-    position: relative;
     background: url(../../../assets/img/bg.jpg) no-repeat center center;
     background-size: cover;
     height: 100%;
-}
-
-.login::before {
-    content: '';
-    position: absolute;
-    inset: 0;
-    background-color: #b6ea4642;
 }
 
 form {
     width: 400px;
     background-color: rgba(0, 0, 0, 0.8);
     padding: 3rem;
+    margin-left: auto;
     border-radius: 10px;
-    z-index: 4;
     text-transform: capitalize;
+    text-align: center;
+}
+
+.reg {
+    margin: auto;
 }
 
 .login input:not([type='checkbox']) {
@@ -45,4 +40,34 @@ form {
 
 label {
     margin: 10px 5px;
+}
+
+.side {
+    z-index: 10;
+    max-width: 450px;
+    margin: 1rem;
+    background-color: #000;
+    padding: 2rem;
+    text-transform: capitalize;
+    border-radius: 6px;
+}
+
+.side tr,
+td,
+th {
+    text-align: left;
+    padding: 1rem;
+}
+
+tr:nth-child(even) {
+    background-color: #fff;
+    color: #000;
+}
+
+@media only screen and (max-width:920px) {
+
+    form,
+    .side {
+        margin: 1rem auto;
+    }
 }

@@ -39,7 +39,6 @@ const Form = ({ onSubmit, user }) => {
         };
         onSubmit(Item);
 
-        console.log(Item)
 
         setItem({
             title: "",
